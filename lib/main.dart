@@ -72,7 +72,10 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: Icon(Icons.play_arrow),
               ),
             ),
-            /*Material(
+            SizedBox(
+              height: 20.0,
+            ),
+            Material(
               elevation: 5.0,
               color: Colors.blueGrey,
               borderRadius: BorderRadius.circular(30.0),
@@ -81,7 +84,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   final assetsAudioPlayer2 = AssetsAudioPlayer();
                   assetsAudioPlayer2.open(
                     Audio.network(
-                    "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/Music_for_Video/springtide/Sounds_strange_weird_but_unmistakably_romantic_Vol1/springtide_-_03_-_We_Are_Heading_to_the_East.mp3)",
+                        "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/Music_for_Video/springtide/Sounds_strange_weird_but_unmistakably_romantic_Vol1/springtide_-_03_-_We_Are_Heading_to_the_East.mp3"),
                   );
                 },
                 minWidth: 42.0,
@@ -91,7 +94,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   style: TextStyle(color: Colors.white, fontSize: 17.0),
                 ),
               ),
-            ),*/
+            ),
           ],
         ),
       ),
